@@ -9,3 +9,21 @@ html,body{
     height: 100%;
     place-items: center;
 }
+
+.wrapper{
+    height: 100px;
+    width: 360px;
+    background: red;
+    border-radius: 10px;
+}
+
+.wrapper .display{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%,-50%);
+    background: blue;
+    height: 85px;
+    width: 345px;
+    text-align: center;
+}
